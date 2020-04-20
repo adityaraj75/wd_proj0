@@ -1,0 +1,109 @@
+body{
+  background-color: black;
+  font-family: monospace;
+}
+
+#game{
+  width: 400px;
+  margin-left: 39%;
+}
+
+#reset{
+    margin-left: 37%;
+    margin-top: 20px;
+}
+
+#reset_button{
+  font-size: 20px;
+}
+
+button:hover{
+  transform: scale(1.2);
+  background-color: cyan;
+}
+
+#board{
+  margin-left: 40%;
+  margin-top: 20%;
+  position: absolute;
+}
+
+#players{
+  width: 100%;
+  margin: auto;
+  margin-top: 200px;
+  height: 50px;
+  position: absolute;
+}
+
+#winner{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  margin-left: 41%;
+  position: absolute;
+}
+
+span{
+  display: inline-block;
+  color: white;
+}
+
+p{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 100px;
+  height: 34px;
+  position: fixed;
+}
+
+span:hover{
+  transform: scale(1.2);
+  border-color: cyan;
+}
+
+.tiles{
+  border-style: solid;
+  border-color: white;
+  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+}
+#cell0{
+  margin-left: 20px;
+}
+#cell1{
+  margin-left: 5px;
+}
+#cell2{
+  margin-left: 5px;
+}
+#cell3{
+  margin-left: 20px;
+}
+#cell4{
+  margin-left: 5px;
+}
+#cell5{
+  margin-left: 5px;
+}
+#cell6{
+  margin-left: 20px;
+}
+#cell7{
+  margin-left: 5px;
+}
+#cell8{
+  margin-left: 5px;
+}
+
+#row1{
+  margin-top: 5px;
+}
+
+#row2{
+  margin-top: 5px;
+}
